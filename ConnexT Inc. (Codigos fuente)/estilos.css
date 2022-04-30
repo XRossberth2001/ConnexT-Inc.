@@ -1,0 +1,76 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+* {
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+body {
+	font-family:'Open Sans', sans-serif;
+}
+ul {
+	list-style: none;
+	display:flex;
+	float: center;             
+}
+li a {
+  color:aliceblue;
+	padding:1rem;
+	text-decoration:none;
+}
+.item {
+	margin:0.1em;
+	padding:1em;
+	float:left;
+	text-align: center;
+}
+.bd-grid {
+    max-width: 1024px;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-column-gap: 2rem;
+    width: calc(100% - 2rem);
+}
+.header {
+	background-color:rgb(100, 88, 255);
+	display: flex;
+	align-items: center;
+}
+.contenedor-logo {
+	padding:5px;
+	display: flex;
+	grid-template-columns: auto 1fr auto;
+}
+.btn {
+	padding:10px;
+	margin:5px;
+	width:90px;
+}
+input {
+	padding:10px;
+    margin: 5px;
+    float: center;
+    width: 60%;
+}
+#w3, .l-main {
+	margin-left: 50px;
+	padding:0;
+	left:0;
+}
+.l__main {
+    margin-left: 50px;
+	padding:0;
+	left:0;
+	float:left;
+	list-style-position: left;
+}
+.card {
+    margin-left: 50px;
+    padding:0;
+	left:0;
+}
+.l__card {
+	float:left;
+	padding-right:100px;
+	margin:0;
+	min-width: 177px;
+}

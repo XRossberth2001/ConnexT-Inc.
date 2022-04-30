@@ -1,0 +1,90 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+* {
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+body {
+	font-family:'Open Sans', sans-serif;
+}
+.nav__list {
+	list-style: none;
+	display:flex;
+	float: center;             
+}
+.nav__list .g3-list {
+  color:aliceblue;
+	padding:2rem;
+	text-decoration:none;
+}
+.header {
+	background-color:rgb(51, 88, 255);
+	display: flex;
+	align-items: center;
+}
+.contenedor-logo {
+	padding:5px;
+	display: flex;
+	grid-template-columns: auto 1fr auto;
+}
+.btn {
+	padding:10px;
+	margin:5px;
+	width:90px;
+}
+input {
+	padding:10px;
+    margin: 5px;
+    float: center;
+    width: 60%;
+}
+h1 {
+	padding:12px;
+}
+.app-wrapper-full-width {
+    width: 100%;
+    float: left;
+}
+.left-section {
+    width: 68%;
+    float: left;
+}
+div {
+    display: block;
+}
+.font-title-3 {
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+.empty-cart {
+	padding-top: 90px;
+    text-align: center;
+    margin-right: .50rem;
+    margin-left: .5rem;
+}
+.multi-actions{
+	padding:30px;
+	margin:0;
+}
+.btn-container {
+	margin-right:10px;
+	font-size: 18px;
+}
+.btn-container{
+	background-color: white;
+	width:25%;
+	height:40px;
+	border-radius: 20px;
+}
+.btn-container:hover {
+	transition:2s;
+	background:linear-gradient( to right, rgba(63, 81, 181, 0.7), rgba(0, 188, 212, 0.7));
+	
+}
+.small-text {
+	margin-left: 25px;
+	padding:0;
+	margin:2%;
+	float:left;
+	text-align: center;
+}

@@ -1,0 +1,92 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+* {
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+body {
+	font-family:'Open Sans', sans-serif;
+}
+.nav__list {
+	list-style: none;
+	display:flex;
+	float: left;             
+}
+.nav__list .g3-list {
+  color:aliceblue;
+	padding:2rem;
+	text-decoration:none;
+}
+.item {
+	margin:0.1em;
+	padding:2em;
+	float:left;
+	text-align: center;
+}
+.bd-grid {
+   
+    display: grid;
+    grid-template-columns: 100%;
+    grid-column-gap: 2rem;
+    width: calc(100% - 2rem);
+}
+.header {
+	background-color:rgb(60, 88, 255);
+	display: flex;
+	align-items: center;
+}
+.contenedor-logo {
+	padding:5px;
+	display: flex;
+	grid-template-columns: auto 1fr auto;
+}
+.btn {
+	padding:10px;
+	margin:5px;
+	width:90px;
+}
+input {
+	padding:10px;
+    margin: 5px;
+    float: center;
+    width: 60%;
+}
+#w4 {
+	height:40px;
+	padding:0;
+}
+.w3-container, #w4, #w5{
+	margin-left: 25px;
+	padding:2px;
+	left:12px;
+}
+.card {
+	display:flex;
+	float:left;
+	margin-right:2%;
+	padding:20px;
+}
+.navi, .g2-minilist {
+	list-style:none;
+}
+.navi .g2-minilist {
+	padding: 3px 18px;
+	display:block;
+}
+.g4-container {
+	margin-left: 270px;
+}
+            
+.work__img img {
+    transition: 1s;
+    cursor: pointer;
+}
+.work__img img:hover {
+    transform: scale(1.1);
+}
+.small-text {
+	float:left;
+	padding-right:100px;
+	margin:0;
+	min-width: 177px;
+}

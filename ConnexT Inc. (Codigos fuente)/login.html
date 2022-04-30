@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<title>Omega - Inicio de sesión</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="login.css">
+	<link rel="icon" href="https://cdn.freebiesupply.com/logos/large/2x/omega-logo-png-transparent.png">
+</head>
+
+<body>
+
+<div class="container">
+	<a href="pagina web.html"><img class="logo" src="https://cdn.freebiesupply.com/logos/large/2x/omega-logo-png-transparent.png" width="120" height="110"></a>
+	<div class="form-box">
+		<div class="button-box">
+          <div id="elegir"></div>
+          <button type="button" class="toggle-btn" onclick="login()">Iniciar Sesión</button>
+          <button type="button" class="toggle-btn" onclick="registrar()">Registrar</button>
+		</div>
+<center>
+		<div class="redes-sociales">
+           <a href="https://www.facebook.com/" style="text-decoration: none">
+           	<img src="https://images.vexels.com/media/users/3/223136/isolated/lists/984f500cf9de4519b02b354346eb72e0-facebook-icon-redes-sociales.png" alt="icono-facebook">
+           </a>
+
+           <a href="https://mail.google.com/" style="text-decoration: none">
+           	<img src="http://assets.stickpng.com/images/5a951939c4ffc33e8c148af2.png" alt="icono-google">
+           </a>
+
+           <a href="https://outlook.live.com/" style="text-decoration: none">
+           	<img src="https://cdn.icon-icons.com/icons2/70/PNG/128/outlook_14099.png" alt="icono-outlook">
+           </a>
+		</div>
+</center>
+
+		<form id="login" class="input-group">
+			<input type="text" class="input-field" name="usuario" placeholder="Correo electrónico" required="">
+			<input type="passowrd" class="input-field" name="contraseña" placeholder="Contraseña" required="">
+			<input type="checkbox" class="check-box" > <span>Recordar contraseña.</span>
+			<button type="submit" class="submit-btn">Acceder</button>
+		</form>
+
+		<form id="registrar" class="input-group">
+			<input type="text" class="input-field" placeholder="Nombre de usuario" required="">
+			<input type="correo" class="input-field" placeholder="Correo electrónico" required="">
+			<input type="passowrd" class="input-field" placeholder="Contraseña" required="">
+			<input type="confirm-passowrd" class="input-field" placeholder="Confirmar contraseña" required="">
+			<input type="checkbox" class="check-box" > <span>Acepto los <a href="#" style="text-decoration: none;">términos y condiciones.</span>
+			<button type="submit" class="submit-btn">Registrar</button>
+		</form>
+	</div>
+</div>
+
+<hr/>
+<br/>
+<footer>
+	
+    <div class="w3-container">
+			<div class="small-text">
+				<a href="#" style="text-decoration:none; color:black;"><small>Acerca de Omega store</small></a>
+			</div>
+
+			<div class="small-text">
+				<a href="#" style="text-decoration:none; color:black;"><small>Desarrolladores</small></a>
+			</div>
+
+			<div class="small-text">
+				<a href="#" style="text-decoration:none; color:black;"><small>Ayuda y contacto</small></a>
+			</div>
+
+			<div class="small-text">
+				<a href="#" style="text-decoration:none; color:black;"><small>Política de privacidad</small></a>
+			</div>
+
+			<div class="small-text">
+				<small>Copyright © 2021 Omega store. Todos los derechos reservados.</small>
+			</div>
+    </div>
+
+				
+		<br/>
+</footer>
+
+<script>
+	var x = document.getElementById("login");
+	var y = document.getElementById("registrar");
+	var z = document.getElementById("elegir");
+
+	function login(){
+		x.style.left = "50px";
+		y.style.left = "450px";
+		z.style.left = "0px";
+	}
+
+	function registrar(){
+		x.style.left = "-400px";
+		y.style.left = "50px";
+		z.style.left = "120px";
+	}
+</script>
+
+</body>
+</html>
